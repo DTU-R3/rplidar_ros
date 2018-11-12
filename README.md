@@ -11,6 +11,13 @@ rplidar HomePage:   http://www.slamtec.com/en/Lidar
 
 rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
 
+Change USB permission
+=====================================================================
+Read and write permission of the USB port is needed.
+```
+sudo chmod 666 /dev/ttyUSB0
+```
+
 How to build rplidar ros package
 =====================================================================
     1) Clone this project to your catkin's workspace src folder
